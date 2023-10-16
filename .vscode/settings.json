@@ -1,0 +1,34 @@
+{
+    "editor.fontSize": 28,
+    "editor.tokenColorCustomizations": {
+        "comments": "#82e0aa", // 注释
+    },
+    // 选中高亮的颜色
+    "workbench.colorCustomizations": {
+        // "editor.selectionBackground": "#aa009c"
+        "editor.lineHighlightBorder": "#8a8787", // 光标所在行边框颜色
+        "editor.lineHighlightBackground": "#393939", // 单击所选内容边框的颜色
+        "editor.selectionForeground": "#393939", // 单击所选内容的颜色
+        "editor.selectionBackground": "#032ff1", // 双击所选内容的颜色
+        "editor.selectionHighlightBackground": "#393939", // 与所选择的字符匹配的字符
+        "editor.selectionHighlightBorder": "#f1ff31", // 与所选择的字符匹配的字符的边框
+        "editor.hoverHighlightBackground": "#063ef7",
+        "tab.hoverBackground": "#000000", // 鼠标悬停在标题上的颜色
+    },
+    "python.analysis.extraPaths": [
+        "/home/he/catkin_avoidance/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages",
+        "/home/he/drl-test/devel/lib/python3.8/site-packages",
+        "./src/turtlebot3_ddpg_collision_avoidance/turtlebot_ddpg/scripts/Test_train_model"
+    ],
+    "python.pythonPath": "/home/he/anaconda2/envs/tensorflow/bin/python",
+    "commentTranslate.hover.enabled": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.pyc": true
+    },
+}
